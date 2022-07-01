@@ -1,4 +1,4 @@
-apt -y install mysql-client-core-5.7
+apt install mysql-client-core-8.0
 
 apt -y install socat
 kubectl expose deploy mariadb --type=ClusterIP
